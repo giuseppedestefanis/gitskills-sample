@@ -16,9 +16,9 @@ Face.
 ## Authors
 
 - Giuseppe Destefanis — University College London, United Kingdom (g.destefanis@ucl.ac.uk)
-- Daniel Graziotin — University of Hohenheim, Germany
-- Matteo Vaccargiu — University of Hohenheim, Germany
-- Marco Ortu — University of Cagliari, Italy
+- Daniel Graziotin — University of Hohenheim, Germany (graziotin@uni-hohenheim.de)
+- Matteo Vaccargiu — University of Hohenheim, Germany (matteo.vaccargiu@uni-hohenheim.de)
+- Marco Ortu — University of Cagliari, Italy (marco.ortu@unica.it)
 
 ## Quick start
 
