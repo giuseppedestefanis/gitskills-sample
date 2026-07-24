@@ -149,9 +149,10 @@ All figures below are for the full dataset.
 
 ## Three views of the full dataset
 
-New skill files per month, dated by the first commit of the 458,548
-files with history. Dates follow the file's current path, so renamed
-files appear late; July 2026 covers only the collection window.
+New skill files per month since the format's introduction in October
+2025, dated by the first commit of the 458,548 files with history.
+Dates follow the file's current path, so renamed files appear late;
+July 2026 covers only the collection window.
 
 ![New skill files per month](plots/growth.png)
 
