@@ -13,6 +13,13 @@ Mining Challenge organizing committee. Upon acceptance, the full
 dataset will be archived on Zenodo with a DOI and mirrored on Hugging
 Face.
 
+## Authors
+
+- Giuseppe Destefanis — University College London, United Kingdom (g.destefanis@ucl.ac.uk)
+- Daniel Graziotin — University of Hohenheim, Germany
+- Matteo Vaccargiu — University of Hohenheim, Germany
+- Marco Ortu — University of Cagliari, Italy
+
 ## Quick start
 
 ```
