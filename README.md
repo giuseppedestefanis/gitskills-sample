@@ -124,7 +124,7 @@ are excluded.
 - File contents are reproduced byte-for-byte as published on GitHub,
   so every content row still verifies against its git blob hash.
 
-## Numbers that did not fit the paper
+## Descriptive statistics
 
 All figures below are for the full dataset.
 
@@ -136,10 +136,6 @@ All figures below are for the full dataset.
   repositories each.
 - **Front matter.** 1,625,701 distinct contents (86.6%) carry valid
   YAML front matter; the rest are malformed or predate the format.
-- **AI authorship.** Of the 458,548 files with commit history, 144,507
-  (31.5%) were born in a commit carrying a `Co-authored-by` trailer;
-  131,803 name Claude, 2,917 name Copilot. 5,931 files were last
-  edited by a `Bot` account.
 - **Repositories.** Top languages: Python (71,801 repositories),
   TypeScript (67,104), JavaScript (23,938), Shell (19,780), HTML
   (12,187), Rust (8,371), Go (8,094). 11,431 repositories have 100+
@@ -180,13 +176,13 @@ GROUP BY file_sha
 ORDER BY copies DESC LIMIT 10;
 ```
 
-Skills born with a Claude co-author trailer:
+Skill counts by location class:
 
 ```sql
-SELECT COUNT(*)
+SELECT location_class, COUNT(*) AS files
 FROM artifacts
-WHERE first_commit_message LIKE '%Co-authored-by: Claude%'
-   OR first_commit_message LIKE '%Co-Authored-By: Claude%';
+GROUP BY location_class
+ORDER BY files DESC;
 ```
 
 Bundled files of skills that ship more than two of them:
