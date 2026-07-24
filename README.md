@@ -147,6 +147,24 @@ All figures below are for the full dataset.
   carries the exact basename, location class, and front-matter
   validity, so stricter populations can be defined at analysis time.
 
+## Three views of the full dataset
+
+New skill files per month, dated by the first commit of the 458,548
+files with history. Dates follow the file's current path, so renamed
+files appear late; July 2026 covers only the collection window.
+
+![New skill files per month](plots/growth.png)
+
+Distinct contents by number of verbatim copies (log scale): a long
+tail of singletons and a head of mass-copied contents.
+
+![Copies per distinct content](plots/copies.png)
+
+Body length of the 1.88M distinct skills (log scale): most skills are
+between one and ten thousand characters of instructions.
+
+![Skill body length](plots/sizes.png)
+
 ## Known limitations
 
 - GitHub code search indexes default branches only, files under
