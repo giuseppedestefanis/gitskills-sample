@@ -147,15 +147,7 @@ All figures below are for the full dataset.
   carries the exact basename, location class, and front-matter
   validity, so stricter populations can be defined at analysis time.
 
-## Three views of the full dataset
-
-New distinct skills at the canonical `.claude/skills/` path per month
-since the format's introduction in October 2025, dated by the first
-commit of the `SKILL.md` file. Dates follow the file's current path,
-so renamed files appear late; July 2026 covers only the collection
-window.
-
-![New skill files per month](plots/growth.png)
+## Two views of the full dataset
 
 Distinct contents by number of verbatim copies (log scale): a long
 tail of singletons and a head of mass-copied contents.
