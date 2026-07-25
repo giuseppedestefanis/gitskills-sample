@@ -149,8 +149,10 @@ All figures below are for the full dataset.
 
 ## Three views of the full dataset
 
-New skill files per month since the format's introduction in October
-2025, dated by the first commit of the 458,548 files with history.
+New distinct skills at the canonical `.claude/skills/` path per month
+since the format's introduction in October 2025, dated by the first
+commit of the `SKILL.md` file. Commit history is complete for this
+population (99.6% collected), so the bars are counts, not estimates.
 Dates follow the file's current path, so renamed files appear late;
 July 2026 covers only the collection window.
 
