@@ -14,6 +14,7 @@ dataset will be archived on Zenodo with a DOI and mirrored on Hugging
 Face.
 
 The full dataset is here: https://huggingface.co/datasets/mvaccargiu/gitskills
+
 The preprint is here: https://arxiv.org/pdf/2608.10906
 
 ## Authors
